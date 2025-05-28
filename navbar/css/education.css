@@ -1,0 +1,26 @@
+section{
+    background-color: dodgerblue;
+    width: 100%;
+}
+.container{
+    background: pink;
+}
+.row .item .card{
+    background-color: aqua;
+}
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}

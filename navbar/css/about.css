@@ -1,0 +1,102 @@
+.about{
+    display: flex; 
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    padding: 60px 9% 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0; 
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.6s;
+   
+ }    
+ section{
+    background-color: burlywood;
+    display: flex;
+ }
+ .home-info{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+ }
+ .home-info .home-about{
+    width: 35%;
+    margin-top: -100px;
+ }
+ .home-info .about-me{
+    width: 55%;
+    text-align: right; 
+    padding-right: 20px;
+    margin-top: -100px;
+ }
+ .content .about-img{
+    flex: 1;
+    margin-top: -20px; 
+ }
+.content .about-img img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0e7789; 
+     
+}
+ .home-info  .about-me h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(218, 131, 32);
+    font-weight: 200;
+    font-style: normal;
+}
+.home-info  .about-me pre{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-info  .about-me ul{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.home-info .home-about .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    margin-right: -100px;
+    margin-top: -70px;   
+}
+ .home-info .home-about .about-info h3{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+.home-info .home-about .skill-mf{
+    padding: 15px;
+}
+.home-info .home-about .skill-mf span{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+.home-info .home-about .skill-mf .progress{
+    height:8px;
+    width: 200px;
+}
+.home-info .home-about .skill-mf h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(251, 205, 255);
+}
+
